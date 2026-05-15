@@ -20,7 +20,7 @@ CNB_DAILY_RATES_URL = (
 DEFAULT_DPH_RATE = Decimal("12")
 DB_PATH = Path(__file__).with_name("bookings.db")
 DEFAULT_CARD_FEES = {
-    "visa": Decimal("1.50"),
+    "TEST": Decimal("1.50"),
     "mastercard": Decimal("1.50"),
     "cash": Decimal("0"),
 }
